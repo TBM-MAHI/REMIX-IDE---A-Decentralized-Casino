@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Casino.sol": "Casio"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Casino.sol": {
+			"keccak256": "0xe10c8f335555ec8665e32f5e094ddb1747f6d2b53943d22d81cb085f90ba56b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e83692c9003786597821cd0cf537891e5d0db09b022e744ac9ec33130f57c39a",
+				"dweb:/ipfs/QmPZQw3Uc2x6dnmxBb1rWekAMZ7XTT8eB1eQyUvN1epVG6"
+			]
+		}
+	},
+	"version": 1
+}
