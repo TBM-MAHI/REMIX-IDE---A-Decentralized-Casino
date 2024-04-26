@@ -25,6 +25,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "fundBank",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -78,12 +85,36 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Casino.sol": {
-			"keccak256": "0x0478825588947321562fc8795803fdb717eccf2bd8bf6cdd1f96a47cd256ebd1",
+		"@chainlink/contracts/src/v0.8/shared/interfaces/LinkTokenInterface.sol": {
+			"keccak256": "0xac02fbc0c7d194e525a71f524d1f7c472df73e19c2b527d7b529badaeaf0ec51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://aa4d527ac4b8e0bfbb8e040128d321e42106137ddc725944f6bf37ce103511f9",
-				"dweb:/ipfs/QmWdQbBzroZ7AS8WHwpxBX5qZVCFGn4HjnptG4eU9MJ8uT"
+				"bzz-raw://301fa881df623882941bdc7a807807df436c5c7da499fa1a4bbe490738109845",
+				"dweb:/ipfs/QmV2W4NYpe6uk4s34sCyrFJHfPEjYAkvHUposWkXrRNtbj"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/vrf/VRFV2WrapperConsumerBase.sol": {
+			"keccak256": "0x6fa03787637b4b7851cc2b1a9f5556f626e1af424fa657f3465ae0cc9f8aa5df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://951a961656b7b1b5c9e0522e872255d580ae0c31454a7bc2b72934c958d6cc5d",
+				"dweb:/ipfs/QmNURypQwbFeTesJEK1V6pXFim5WNENtdu9VVt5soeLA1u"
+			]
+		},
+		"@chainlink/contracts/src/v0.8/vrf/interfaces/VRFV2WrapperInterface.sol": {
+			"keccak256": "0x44f6fa0cb1867a0bc137a195d4603bafa1cf74ecfbe69eb82a5dabeca8957738",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87ebb29c09566ab02ff62c3c29f60a08db52f032b5f2c5220cd111aad88002ce",
+				"dweb:/ipfs/QmfScq3oJ6MkPXJh5JUrpz93bNMJ3ebtLcE3Q1H2DUNi93"
+			]
+		},
+		"contracts/Casino.sol": {
+			"keccak256": "0x091aeaeb578e4073e3c8c7a07e9fe2b9c7f3173f6e0c6d0916f2037969e6cb7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://430d6e570f993eea07d611be50373fc478b4f4dc58f367d9e593493bd4e93b94",
+				"dweb:/ipfs/QmRi8CjEtGMTv2JuFogSJSZECRqpCmuhRd89jAL5kZSfBx"
 			]
 		},
 		"hardhat/console.sol": {
