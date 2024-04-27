@@ -41,8 +41,14 @@ contract DecentralizedCasino {
         blockNumbersToBeUsed[msg.sender] = 0;
         gameWeiValues[msg.sender] = 0;
     }
-
+    //fallback function
+    /* receive is a predefined fallback function which has 
+        to be payabale 
+        use receive - when smart contract func is called with ether only
+        use fallback - when smart contract func is called with ether and with smart contract data
+    */
     receive() external payable {
         playGame();
     }
+   // fallback() external payable { }
 }

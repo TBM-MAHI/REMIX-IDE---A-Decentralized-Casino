@@ -102,11 +102,11 @@
 	},
 	"sources": {
 		"contracts/Dec_casino.sol": {
-			"keccak256": "0x69634d27e9746be73b5a3744959988e7197b3594bf8049f37c21028eda6c25f9",
+			"keccak256": "0x8aea5a749d4df0de66b595e6800a030a92e038115500c6ba1546880edba3c065",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://60cfc720c431738f1b37b0932adf4192d638244d3f14c1736151f0bca28c0609",
-				"dweb:/ipfs/QmeXZYj4VUhafige1J7e4vxQQZdo3nPCr24XerfD3r6WeY"
+				"bzz-raw://167dbe584967d12428d42c3ce399d12005232feb1c620c60223f517f31d6b5e6",
+				"dweb:/ipfs/QmVsmmxArZ4VngZGku69mgtAaD3VNBwnXL59DEVAPmdvXU"
 			]
 		}
 	},
